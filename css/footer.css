@@ -1,122 +1,122 @@
- /* FOOTER */
- footer {
-     background: #0a0a0a;
-     border-top: 1px solid #2d2d2d;
-     padding: 60px 50px 30px;
- }
+/* FOOTER */
+footer {
+    background: #0a0a0a;
+    border-top: 1px solid #2d2d2d;
+    padding: 60px 50px 30px;
+}
 
- .footer-content {
-     max-width: 1400px;
-     margin: 0 auto;
-     display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-     gap: 50px;
-     margin-bottom: 50px;
- }
+.footer-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+    margin-bottom: 50px;
+}
 
- .footer-section h3 {
-     font-size: 18px;
-     font-weight: 400;
-     color: #c9a961;
-     letter-spacing: 2px;
-     margin-bottom: 20px;
-     text-transform: uppercase;
- }
+.footer-section h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #c9a961;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
 
- .footer-section p {
-     color: #ccc;
-     line-height: 1.8;
-     font-size: 14px;
-     margin-bottom: 8px;
- }
+.footer-section p {
+    color: #ccc;
+    line-height: 1.8;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
 
- .footer-section a {
-     display: block;
-     color: #ccc;
-     text-decoration: none;
-     margin-bottom: 10px;
-     font-size: 14px;
-     transition: color 0.3s ease, padding-left 0.3s ease;
- }
+.footer-section a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    transition: color 0.3s ease, padding-left 0.3s ease;
+}
 
- .footer-section a:hover {
-     color: #c9a961;
-     padding-left: 5px;
- }
+.footer-section a:hover {
+    color: #c9a961;
+    padding-left: 5px;
+}
 
- .social-links {
-     display: flex;
-     gap: 15px;
-     margin-top: 15px;
- }
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
 
- .social-links a {
-     width: 40px;
-     height: 40px;
-     border: 1px solid #c9a961;
-     border-radius: 50%;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     color: #c9a961;
-     transition: all 0.3s ease;
-     margin-bottom: 0;
- }
+.social-links a {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #c9a961;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c9a961;
+    transition: all 0.3s ease;
+    margin-bottom: 0;
+}
 
- .social-links a:hover {
-     background: #c9a961;
-     color: #0a0a0a;
-     transform: translateY(-3px);
-     padding-left: 0;
- }
+.social-links a:hover {
+    background: #c9a961;
+    color: #0a0a0a;
+    transform: translateY(-3px);
+    padding-left: 0;
+}
 
- .footer-divider {
-     max-width: 1400px;
-     margin: 0 auto;
-     height: 1px;
-     background: #2d2d2d;
-     margin-bottom: 30px;
- }
+.footer-divider {
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 1px;
+    background: #2d2d2d;
+    margin-bottom: 30px;
+}
 
- .footer-bottom {
-     max-width: 1400px;
-     margin: 0 auto;
-     text-align: center;
- }
+.footer-bottom {
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
 
- .footer-bottom p {
-     color: #888;
-     font-size: 13px;
-     line-height: 1.8;
-     margin-bottom: 5px;
- }
+.footer-bottom p {
+    color: #888;
+    font-size: 13px;
+    line-height: 1.8;
+    margin-bottom: 5px;
+}
 
- .footer-bottom a {
-     color: #888;
-     text-decoration: none;
-     transition: color 0.3s;
- }
+.footer-bottom a {
+    color: #888;
+    text-decoration: none;
+    transition: color 0.3s;
+}
 
- .footer-bottom a:hover {
-     color: #c9a961;
- }
+.footer-bottom a:hover {
+    color: #c9a961;
+}
 
 
- @media (max-width: 768px) {
-     footer {
-         padding: 40px 20px 20px;
-     }
+@media (max-width: 768px) {
+    footer {
+        padding: 40px 20px 20px;
+    }
 
-     .footer-content {
-         grid-template-columns: 1fr;
-         gap: 40px;
-     }
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
 
-     .newsletter-form {
-         flex-direction: column;
-     }
+    .newsletter-form {
+        flex-direction: column;
+    }
 
-     .demo-content h1 {
-         font-size: 32px;
-     }
- }
+    .demo-content h1 {
+        font-size: 32px;
+    }
+}

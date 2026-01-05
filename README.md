@@ -2,31 +2,37 @@
 
 Site de Sébastien Courdji.
 
-## 📸 Aperçu
+## Aperçu
 
 Site vitrine présentant les services de photographie avec :
 - Page d'accueil avec hero section
-- Portfolio par thématiques (Mariages, Portraits, Architecture, etc.)
+- Portfolio par thématiques (Politiques, Portraits d'entreprises, Architecture, Reportages, Articles de presse, Célébrités)
 - Galerie interactive avec lightbox
-- Page À propos
-- Formulaire de contact
+- Section À propos
+- Section contact
 
-## 🛠️ Technologies
+## Technologies
 
 - HTML5
 - CSS3 (Grid, Flexbox, animations)
 - JavaScript Vanilla
 - Responsive Design
 
-## 📁 Structure
+## Structure
 ```
 /
-├── index.html              # Page d'accueil
-├── mariages.html          # Galerie mariages
-├── portraits.html         # Galerie portraits
+├── index.html                  # Page d'accueil
+├── architecture.html           # Galerie architecture
+├── articles.html               # Galerie articles
+├── celebrites.html             # Galerie celebrites
+├── politiques.html             # Galerie politiques
+├── portraitsEntreprise.html    # Galerie portraitsEntreprise
+├── reportages.html             # Galerie reportages
 ├── politique-confidentialite.html
 ├── css/
-│   └── style.css          # Styles globaux (optionnel si tout inline)
+│   ├── style.css
+│   ├── footer.css 
+│   └── gallery.css      
 ├── js/
 │   └── main.js            # Scripts (optionnel si tout inline)
 ├── images/
@@ -36,7 +42,7 @@ Site vitrine présentant les services de photographie avec :
 └── README.md
 ```
 
-## 🚀 Installation
+## Installation
 
 1. Cloner le repository
 ```bash
@@ -47,7 +53,7 @@ git clone https://github.com/username/photographe-site.git
 
 Aucune installation ou build nécessaire !
 
-## 🌐 Déploiement
+## Déploiement
 
 Le site peut être hébergé sur :
 - GitHub Pages
@@ -55,7 +61,7 @@ Le site peut être hébergé sur :
 - Vercel
 - Serveur web classique (Apache, Nginx)
 
-## 📝 À faire avant mise en production
+## À faire avant mise en production
 
 - [ ] Remplacer les images placeholder par les vraies photos
 - [ ] Optimiser toutes les images (WebP, compression)
@@ -65,7 +71,7 @@ Le site peut être hébergé sur :
 - [ ] Tester sur tous les navigateurs
 - [ ] Vérifier la conformité RGPD
 
-## 🎨 Personnalisation
+## Personnalisation
 
 ### Couleurs principales :
 - Or : `#c9a961`
@@ -78,16 +84,16 @@ Le site peut être hébergé sur :
 3. Changer l'image de fond du hero
 4. Remplacer les photos de la galerie
 
-## 📱 Compatibilité
+## Compatibilité
 
 - ✅ Chrome, Firefox, Safari, Edge (dernières versions)
 - ✅ Mobile responsive
 - ✅ Tablettes
 
-## 📄 Licence
+## Licence
 
-© 2024 Alexandre Dubois. Tous droits réservés.
+© 2025 Alexandre Dubois. Tous droits réservés.
 
-## 📧 Contact
+## Contact
 
 Pour toute question : contact@alexandredubois.fr
