@@ -34,42 +34,29 @@ Site vitrine présentant les services de photographie avec :
 │   ├── footer.css 
 │   └── gallery.css      
 ├── js/
-│   └── main.js            # Scripts (optionnel si tout inline)
+│   ├── script.js
+│   └── include.js         # Scripts
 ├── images/
-│   ├── hero/              # Images de fond
-│   ├── gallery/           # Photos portfolio
-│   └── logos/
-└── README.md
+│   ├── imgArchitecture/              # Images de fond
+│   ├── imgArticles/           # Photos portfolio
+│   ├── imgCelebrites/
+│   ├── imgPolitique/
+│   ├── imgPortraits/
+│   └── imgReportages/
+├── README.md
+├──sitemap.xml
 ```
 
 ## Installation
 
 1. Cloner le repository
 ```bash
-git clone https://github.com/username/photographe-site.git
+git clone https://cassoulaid.github.io/
 ```
 
 2. Ouvrir `index.html` dans un navigateur
 
 Aucune installation ou build nécessaire !
-
-## Déploiement
-
-Le site peut être hébergé sur :
-- GitHub Pages
-- Netlify
-- Vercel
-- Serveur web classique (Apache, Nginx)
-
-## À faire avant mise en production
-
-- [ ] Remplacer les images placeholder par les vraies photos
-- [ ] Optimiser toutes les images (WebP, compression)
-- [ ] Ajouter les vraies informations de contact
-- [ ] Configurer le formulaire de contact (backend)
-- [ ] Ajouter Google Analytics (optionnel)
-- [ ] Tester sur tous les navigateurs
-- [ ] Vérifier la conformité RGPD
 
 ## Personnalisation
 
@@ -79,7 +66,7 @@ Le site peut être hébergé sur :
 - Gris foncé : `#2d2d2d`
 
 ### Pour changer une galerie :
-1. Dupliquer `mariages.html`
+1. Dupliquer par exemple `articles.html`
 2. Modifier le titre et la description
 3. Changer l'image de fond du hero
 4. Remplacer les photos de la galerie
@@ -92,7 +79,7 @@ Le site peut être hébergé sur :
 
 ## Licence
 
-© 2025 Alexandre Dubois. Tous droits réservés.
+© 2025 Sébastien Courdji. Tous droits réservés.
 
 ## Contact
 
