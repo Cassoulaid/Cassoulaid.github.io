@@ -33,18 +33,19 @@ Site vitrine présentant les services de photographie avec :
 │   ├── style.css
 │   ├── footer.css 
 │   └── gallery.css      
-├── js/
+├── js/                         # Scripts
 │   ├── script.js
-│   └── include.js         # Scripts
+│   └── include.js         
 ├── images/
-│   ├── imgArchitecture/              # Images de fond
-│   ├── imgArticles/           # Photos portfolio
+│   ├── imgArchitecture/
+│   ├── imgArticles/ 
 │   ├── imgCelebrites/
 │   ├── imgPolitique/
 │   ├── imgPortraits/
 │   └── imgReportages/
 ├── README.md
 ├──sitemap.xml
+└──robots.txt
 ```
 
 ## Installation
@@ -80,7 +81,3 @@ Aucune installation ou build nécessaire !
 ## Licence
 
 © 2025 Sébastien Courdji. Tous droits réservés.
-
-## Contact
-
-Pour toute question : contact@alexandredubois.fr
